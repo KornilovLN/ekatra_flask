@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{{ document.title }}</h1>
+<p>{{ document.content }}</p>
+    <a href="{{ url_for('edit', id=request.view_args.id) }}">
+        Edit
+    </a>
+    <!--
+    <form action="{{ url_for('delete', id=request.view_args.id) }}" method="POST" style="display:inline;"  class="form">
+        <button type="submit" class="delete-btn" onclick="return confirm('Вы уверены, что хотите удалить этот документ?');">Удалить</button>
+    </form>
+    -->
+    <form action="{{ url_for('delete', id=request.view_args.id) }}" method="POST" style="display:inline;" class="form delete-form">
+        <button type="submit" class="delete-btn" onclick="return confirm('Вы уверены, что хотите удалить этот документ?');">Удалить</button>
+    </form>
+
+{% endblock %}

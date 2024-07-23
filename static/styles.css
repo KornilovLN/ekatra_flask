@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Стиль для верхнего навигатора */
+nav {
+    margin-bottom: 20px;
+
+    width: 95%;
+    margin: 0 auto; /* Центрирование */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Основные стили для формы */
+form {
+    width: 80%;
+    margin: 0 auto; /* Центрирование формы */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Стили для меток */
+form label {
+    display: block; /* Блоковое отображение для лучшего управления */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Стили для полей ввода текста */
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Учет внутренних отступов и границ */
+    font-size: 16px;
+}
+
+/* Стили для кнопки отправки */
+form button[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Дополнительные стили для кнопки при наведении */
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.delete-form {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+/* style кнопки удаления */
+form button.delete-btn {
+    width: auto; /* или width: fit-content; */
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form button.delete-btn:hover {
+    background-color: darkred;
+}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Documents</h1>
+<ul>
+  {% for id, document in documents.items() %}
+    <li>
+      <a href="{{ url_for('document', id=id) }}">{{ document.title }}</a>
+
+      <form action="{{ url_for('delete', id=request.view_args.id) }}"
+            method="POST"
+            style="display:inline;"
+            class="form delete-form">
+        <button type="submit" class="delete-btn" onclick="return confirm('Вы уверены, что хотите удалить этот документ?');">Удалить</button>
+      </form>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}
