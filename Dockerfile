@@ -5,6 +5,7 @@
 #---------------------------------------------------------------------
 # docker build -t my-flask-img .        #--- сборка my-flask-img
 # docker run -p 8086:80 my-flask-img        #--- запустить контейнер#
+# docker run --rm --name my-flask-cont -p 8086:80 -v /home/leon/work/docker/ekatra_flask/:/app my-flask-img
 #---------------------------------------------------------------------
 # Используем базовый образ Python 3.12
 FROM python:3.12-slim
@@ -24,7 +25,7 @@ RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r /app/requirements.txt
 
 # Копируем файлы приложения в контейнер
-COPY . /app/
+#COPY . /app/  #--- будут использоваться из подключенного тома 
 
 # Устанавливаем рабочую директорию
 WORKDIR /app

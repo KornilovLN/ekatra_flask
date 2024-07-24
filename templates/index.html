@@ -1,16 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1>Documents</h1>
+<a href="https://flask-russian-docs.readthedocs.io/ru/0.10.1/"><h3> Site: flask-russian-docs </h3></a>
 <ul>
   {% for id, document in documents.items() %}
     <li>
       <a href="{{ url_for('document', id=id) }}">{{ document.title }}</a>
 
-      <form action="{{ url_for('delete', id=request.view_args.id) }}"
+      <form action="{{ url_for('delete', id=id) }}"
             method="POST"
             style="display:inline;"
             class="form delete-form">
-        <button type="submit" class="delete-btn" onclick="return confirm('Вы уверены, что хотите удалить этот документ?');">Удалить</button>
+        <button type="submit"
+                class="delete-btn"
+                onclick="return confirm('Вы уверены, что хотите удалить этот документ?');">
+            Удалить
+        </button>
       </form>
     </li>
   {% endfor %}

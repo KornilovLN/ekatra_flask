@@ -1,9 +1,16 @@
 from flask import Flask, render_template, request, redirect, url_for
+from flask import flash
 import json
 import signal
 import sys
 
 app = Flask(__name__)
+
+# Получить секретный ключ для дальнейшей работы приложения
+with open('key_secret.txt', 'r') as file:
+    secret_key = file.read().strip()
+
+app.secret_key = secret_key
 
 @app.context_processor
 def utility_processor():
@@ -53,14 +60,27 @@ def edit(id):
 # Страница добавления документа
 @app.route('/add', methods=['GET', 'POST'])
 def add():
-    if request.method == 'POST':
-        new_id = str(len(documents) + 1)
+    if request.method == 'POST':        
         title = request.form['title']
         content = request.form['content']
+
+        if not title.strip():
+            return render_template('add.html', error="Title cannot be empty", document={"title": title, "content": content})
+
+        new_id = str(max(map(int, documents.keys())) + 1) if documents else "1"
+
         documents[new_id] = {"title": title, "content": content}
         save_documents(documents)
+
+        flash('Document added successfully', 'success')
         return redirect(url_for('index'))
-    return render_template('edit.html', document={"title": "", "content": ""})
+    
+    # эта строка сработает при GET запросе
+    # Это происходит, когда пользователь просто открывает страницу добавления документа,
+    # но еще не отправил форму.
+    # Эта строка отображает пустую форму, готовую к заполнению новыми данными.
+    # Это правильное поведение для инициализации страницы добавления нового документа.
+    return render_template('add.html', document={"title": "", "content": ""})
 
 # Страница удаления документа по ID
 @app.route('/delete/<id>', methods=['POST'])
