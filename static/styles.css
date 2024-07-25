@@ -85,3 +85,28 @@ form button.delete-btn {
 form button.delete-btn:hover {
     background-color: darkred;
 }
+
+
+
+
+.list-group-item {
+    height: 1.5rem !important; /* Устанавливаем фиксированную высоту */
+    display: flex !important;
+    align-items: center !important;
+}
+
+.list-group-item a {
+    height: 100% !important; /* Заполняем высоту родительского элемента */
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important; /* Убираем внутренние отступы */
+    font-size: 0.8rem !important; /* Изменяем размер шрифта при необходимости */
+}
+
+.list-group-item form button {
+    height: 100% !important; /* Заполняем высоту родительского элемента */
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important; /* Убираем внутренние отступы */
+    font-size: 0.8rem !important; /* Изменяем размер шрифта при необходимости */
+}

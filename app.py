@@ -39,6 +39,14 @@ documents = load_documents()
 def index():
     return render_template('index.html', documents=documents, repeat_count=5)
 
+@app.route('/sidebar')
+def sidebar():
+    return render_template('sidebar.html')
+
+@app.route('/external_links')
+def external_links():
+    return render_template('external_links.html')
+
 # Страница с документом по ID
 @app.route('/document/<id>')
 def document(id):
