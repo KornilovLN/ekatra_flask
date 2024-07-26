@@ -1,11 +1,26 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>Edit Document</h1>
-<form method="post">
-  <label for="title">Title:</label>
-  <input type="text" id="title" name="title" value="{{ document.title }}">
-  <label for="content">Content:</label>
-  <textarea id="content" name="content">{{ document.content }}</textarea>
-  <button type="submit">Save</button>
-</form>
+<div class="container mt-4">
+    <h1 class="document-title mb-4">Edit Document</h1>
+
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+
+    <form method="post">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title:</label>
+            <input type="text" class="form-control" id="title" name="title" value="{{ document.title }}">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description:</label>
+            <input type="text" class="form-control" id="description" name="description" value="{{ document.description }}">
+        </div>        
+        <div class="mb-3">
+            <label for="content" class="form-label">Content:</label>
+            <textarea class="form-control" id="content" name="content" rows="5">{{ document.content }}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+
+    </div>
+</div>
 {% endblock %}

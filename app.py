@@ -39,6 +39,10 @@ documents = load_documents()
 def index():
     return render_template('index.html', documents=documents, repeat_count=5)
 
+@app.route('/start')
+def start():
+    return render_template('start.html')
+
 @app.route('/sidebar')
 def sidebar():
     return render_template('sidebar.html')
@@ -46,6 +50,10 @@ def sidebar():
 @app.route('/external_links')
 def external_links():
     return render_template('external_links.html')
+
+@app.route('/links_info')
+def links_info():
+    return render_template('links_info.html')
 
 # Страница с документом по ID
 @app.route('/document/<id>')
@@ -58,12 +66,14 @@ def document(id):
 def edit(id):
     if request.method == 'POST':
         title = request.form['title']
+        description = request.form['description']
         content = request.form['content']
-        documents[id] = {"title": title, "content": content}
+        documents[id] = {"title": title, "description": description, "content": content}
         save_documents(documents)
         return redirect(url_for('index'))
     doc = documents.get(id)
     return render_template('edit.html', document=doc)
+
 
 # Страница добавления документа
 @app.route('/add', methods=['GET', 'POST'])
@@ -71,13 +81,14 @@ def add():
     if request.method == 'POST':        
         title = request.form['title']
         content = request.form['content']
+        description = request.form['description']
 
         if not title.strip():
             return render_template('add.html', error="Title cannot be empty", document={"title": title, "content": content})
 
         new_id = str(max(map(int, documents.keys())) + 1) if documents else "1"
 
-        documents[new_id] = {"title": title, "content": content}
+        documents[new_id] = {"title": title, "description": description, "content": content}
         save_documents(documents)
 
         flash('Document added successfully', 'success')
@@ -88,7 +99,7 @@ def add():
     # но еще не отправил форму.
     # Эта строка отображает пустую форму, готовую к заполнению новыми данными.
     # Это правильное поведение для инициализации страницы добавления нового документа.
-    return render_template('add.html', document={"title": "", "content": ""})
+    return render_template('add.html', document={"title": "", "description": "", "content": ""})
 
 # Страница удаления документа по ID
 @app.route('/delete/<id>', methods=['POST'])

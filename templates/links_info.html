@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}      
+<h1 class="document-title  mt-4" >Links info</h1>
+
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+<ul class="list-group">
+    {% for link in [
+        ("http://y669805n.beget.tech", "Справочник по многим вопросам IT от StarmarkLN"),
+        ("http://coderbooks.ru", "Книги по IT"),
+        ("https://github.com/KornilovLN/Guidebook/blob/branch_1/", "github.com/KornilovLN/Guidebook"),
+    ] %}
+        <li class="list-group-item {% if loop.index is even %}bg-light{% endif %}">
+            <a href="{{ link[0] }}" target="_blank">{{ link[1] }}</a>
+        </li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <h1 class="document-title mb-4">Welcome to Ekatra Documents Management</h1>
+    
+    <div class="row">
+        <div class="col-md-8">
+            <p>Предлагается сборник информации по работе с документацией,
+               <br>который также позволяет накапливать статьи для дальнейшего чтения.   
+            </p>
+
+        </div>
+        <div>
+            <h4>Структура сайта</h4>
+            <p>
+                <ul>
+                    <li>
+                        <a href="{{ url_for('start') }}">Start</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('add') }}">Add Document</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('external_links') }}">External Links</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('links_info') }}">Links info</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

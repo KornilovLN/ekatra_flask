@@ -1,0 +1,38 @@
+.custom-header {
+  background-color: rgba(13, 202, 240, 0.25);
+  color: #0d6efd;
+  padding: 1rem;
+}
+.custom-header img {
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+.custom-header h1 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.custom-sidebar {
+  background-color: #f1e5d9; /* Sepia-like color */
+  box-shadow: inset -5px 0 5px rgba(0, 0, 0, 0.1); /* Adds depth */
+  height: 100%;
+}
+
+
+.custom-footer {
+  background-color: rgba(33, 37, 41, 0.5);
+  color: white;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.custom-footer p {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.custom-footer a {
+  color: white;
+}
+
+
+.document-title {
+  color: #0d6efd;  /* This is Bootstrap's primary blue color */ 
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}

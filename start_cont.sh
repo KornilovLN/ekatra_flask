@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGENAME="my-flask-img"
+IMAGENAME="my-flask-img:latest"
 CONTAINERNAME="my-flask-cont"
 VOLUMENAME="ekatra_flask_data"
 VOLUMEPATH="/home/leon/work/docker/ekatra_flask/"

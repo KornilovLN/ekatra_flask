@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
-{% block content %}
-<h1>External Links</h1>
+{% block content %}      
+<h1 class="document-title  mt-4" >External Links</h1>
+
 <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
 <ul class="list-group">
     {% for link in [
@@ -8,7 +9,8 @@
         ("https://habr.com/ru/articles/804245/", "Мега-Учебник Flask 1"),
         ("https://getbootstrap.su", "Bootstrap main"),
         ("https://getbootstrap.su/docs/5.0/examples/", "Bootstrap Example"),
-        ("https://getbootstrap.com/docs/5.3/utilities/api/", "Bootstrap Utilities")
+        ("https://getbootstrap.com/docs/5.3/utilities/api/", "Bootstrap Utilities"),
+        ("https://pythonist.ru/obhod-dvoichnogo-dereva-na-python/", "Pythonist/obhod-dvoichnogo-dereva-na-python")
     ] %}
         <li class="list-group-item {% if loop.index is even %}bg-light{% endif %}">
             <a href="{{ link[0] }}" target="_blank">{{ link[1] }}</a>
