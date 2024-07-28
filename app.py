@@ -55,6 +55,14 @@ def external_links():
 def links_info():
     return render_template('links_info.html')
 
+@app.route('/handcrafts')
+def handcrafts():
+    return render_template('handcrafts.html')
+
+@app.route('/tutor')
+def tutor():
+    return render_template('tutor.html')
+
 # Страница с документом по ID
 @app.route('/document/<id>')
 def document(id):

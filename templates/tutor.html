@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}      
+<h1 class="document-title  mt-4" >Tutorials</h1>
+
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+<ul class="list-group">
+    {% for link in [
+        ("https://ravesli.com/", "Ravesli"),
+        ("https://habr.com/ru/companies/slurm/articles/704208/", "HABR: RabbitMQ"),
+        ("https://dotsandbrackets.com/quick-intro-to-rabbitmq-ru/", "Краткое введение в RabbitMQ"),
+        ("https://habr.com/ru/articles/434510/", "Коротко о работе с RabbitMQ из Python"),
+        ("https://habr.com/ru/articles/149694/", "RabbitMQ tutorial 1 — Hello World" ),
+    ] %}
+        <li class="list-group-item {% if loop.index is even %}bg-light{% endif %}">
+            <a href="{{ link[0] }}" target="_blank">{{ link[1] }}</a>
+        </li>
+
+        
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}      
+<h1 class="document-title  mt-4" >Handcrafts</h1>
+
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+<ul class="list-group">
+    {% for link in [
+        ("https://www.raspberrypi.com/tutorials/cluster-raspberry-pi-tutorial/", "How to build a Raspberry Pi cluster"),
+        ("https://www.picocluster.com/pages/picocluster-getting-started-guide", "Picocluster getting started guide"),
+        ("https://www.picocluster.com/blogs/picocluster/101-uses-for-picocluster", "101 Uses for PicoCluster"),
+    ] %}
+        <li class="list-group-item {% if loop.index is even %}bg-light{% endif %}">
+            <a href="{{ link[0] }}" target="_blank">{{ link[1] }}</a>
+        </li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}
