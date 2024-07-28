@@ -4,6 +4,8 @@ import json
 import signal
 import sys
 
+categories = ["ext_links", "info_links", "handscraft", "tutorials", "other"]
+
 app = Flask(__name__)
 
 # Получить секретный ключ для дальнейшей работы приложения
@@ -62,6 +64,115 @@ def handcrafts():
 @app.route('/tutor')
 def tutor():
     return render_template('tutor.html')
+
+#------------------------------------------------------------------------------
+
+def get_links_from_database():
+    try:
+        with open('links.json', 'r') as file:
+            links = json.load(file)
+        return links
+    except FileNotFoundError:
+        return []
+    
+def save_link_to_database(new_link):
+    links = get_links_from_database()    
+    links.append(new_link)
+    with open('links.json', 'w') as file:
+        json.dump(links, file, indent=2)
+"""
+def update_link_in_database(updated_link):
+    links = get_links_from_database()
+    for i, link in enumerate(links):
+        if link['id'] == updated_link['id']:
+            links[i] = updated_link
+            break
+    with open('links.json', 'w') as file:
+        json.dump(links, file, indent=2)
+"""
+def update_link_in_database(index, updated_link):
+    links = get_links_from_database()
+    links[index] = updated_link
+    with open('links.json', 'w') as file:
+        json.dump(links, file, indent=2)        
+
+"""
+def delete_link_from_database(id):
+    links = get_links_from_database()
+    links = [link for link in links if link['id'] != id]
+    with open('links.json', 'w') as file:
+        json.dump(links, file, indent=2)
+"""
+def delete_link_from_database(index):
+    links = get_links_from_database()
+    del links[index]
+    with open('links.json', 'w') as file:
+        json.dump(links, file, indent=2)        
+
+@app.route('/links')
+def links():
+    # Получение списка ссылок из базы данных
+    links = get_links_from_database()
+    return render_template('links.html', links=links)
+
+@app.route('/add_link', methods=['GET', 'POST'])
+def add_link():
+    if request.method == 'POST':
+        # Обработка данных формы
+        new_link = {
+            'fld_cat': request.form['fld_cat'],
+            'fld_url': request.form['fld_url'],
+            'fld_dsc': request.form['fld_dsc'],
+            'fld_krz': request.form['fld_krz']
+        }
+        # Сохранение новой ссылки в базу данных
+        save_link_to_database(new_link)
+        return redirect(url_for('links'))
+    return render_template('add_link.html', categories=categories)
+
+"""
+@app.route('/edit_link/<int:id>', methods=['GET', 'POST'])
+def edit_link(id):
+    # Получение ссылки из базы данных по id
+    link = next((link for link in get_links_from_database() if link['id'] == id), None)
+    if request.method == 'POST':
+        # Обновление данных ссылки
+        link['fld_cat'] = request.form['fld_cat']
+        link['fld_url'] = request.form['fld_url']
+        link['fld_dsc'] = request.form['fld_dsc']
+        link['fld_krz'] = request.form['fld_krz']
+        # Сохранение обновленной ссылки в базу данных
+        update_link_in_database(link)
+        return redirect(url_for('links'))
+    return render_template('edit_link.html', link=link, categories=categories)
+"""
+@app.route('/edit_link/<int:index>', methods=['GET', 'POST'])
+def edit_link(index):
+    links = get_links_from_database()
+    link = links[index]
+    if request.method == 'POST':
+        link['fld_cat'] = request.form['fld_cat']
+        link['fld_url'] = request.form['fld_url']
+        link['fld_dsc'] = request.form['fld_dsc']
+        link['fld_krz'] = request.form['fld_krz']
+        update_link_in_database(index, link)
+        return redirect(url_for('links'))
+    return render_template('edit_link.html', link=link, categories=categories, index=index)
+
+"""
+@app.route('/delete_link/<int:id>')
+def delete_link(id):
+    # Удаление ссылки из базы данных
+    delete_link_from_database(id)
+    return redirect(url_for('links'))
+"""
+
+@app.route('/delete_link/<int:index>')
+def delete_link(index):
+    delete_link_from_database(index)
+    return redirect(url_for('links'))
+
+#------------------------------------------------------------------------
 
 # Страница с документом по ID
 @app.route('/document/<id>')

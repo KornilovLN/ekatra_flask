@@ -3,6 +3,7 @@
 <h1 class="document-title mt-4">Documents</h1>
 
 <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+
 <ul class="list-group">
   {% for id, document in documents.items() %}
     <li class="list-group-item d-flex justify-content-between align-items-center {% if loop.index is even %}bg-light{% endif %}">
@@ -17,5 +18,6 @@
     </li>
   {% endfor %}
 </ul>
+
 </div>
 {% endblock %}
