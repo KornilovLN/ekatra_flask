@@ -1,5 +1,6 @@
 add_commit_push.sh
 .vscode
+venv/
 __pycache__
 info/
 tree.txt
