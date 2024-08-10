@@ -30,9 +30,225 @@
     "fld_krz": "\r\n\r\n    About\r\n    Documentation\r\n        Reference\r\n        Book\r\n        Videos\r\n        External Links\r\n    Downloads\r\n    Community\r\n\r\n"
   },
   {
-    "fld_cat": "info_links",
+    "fld_cat": "other",
     "fld_url": "https://platform.openai.com/docs/overview",
     "fld_dsc": "OpenAI developer platform",
     "fld_krz": "Get up and running with the OpenAI API\r\n\r\nThe OpenAI API provides a simple interface for developers to create an intelligence layer in their applications, powered by OpenAI's state of the art models. The Chat Completions endpoint powers ChatGPT and provides a simple way to take text as input and use a model like GPT-4o to generate an output.\r\n"
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://habr.com/ru/companies/amvera/articles/754702/",
+    "fld_dsc": "\u0412\u0438\u0434\u044b \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445. \u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043e\u0431\u0437\u043e\u0440 \u0442\u0438\u043f\u043e\u0432 \u0421\u0423\u0411\u0414",
+    "fld_krz": "\u0427\u0430\u0441\u0442\u043e, \u0432 \u043e\u0431\u0437\u043e\u0440\u0430\u0445 \u0432\u0438\u0434\u043e\u0432 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u043f\u043e\u043c\u0438\u043d\u0430\u044e\u0442 \u0440\u0435\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0438 \u201c\u0434\u0440\u0443\u0433\u0438\u0435\u201d, \u201cNoSQL\u201d \u0438 \u0442.\u0434., \u043b\u0438\u0431\u043e \u043f\u0440\u0438\u0432\u043e\u0434\u044f\u0442 \u0441\u0430\u043c\u044b\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0442\u0438\u043f\u044b \u0421\u0423\u0411\u0414 (\u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445), \u0437\u0430\u0431\u044b\u0432\u0430\u044f \u043e \u0440\u0435\u0434\u043a\u0438\u0445. \u0412 \u0434\u0430\u043d\u043d\u043e\u0439 \u0441\u0442\u0430\u0442\u044c\u0435 \u044f \u043f\u043e\u0441\u0442\u0430\u0440\u0430\u044e\u0441\u044c \u043e\u043f\u0438\u0441\u0430\u0442\u044c \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043f\u043e\u043b\u043d\u043e \u0432\u0438\u0434\u044b \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u043f\u0440\u0438\u043c\u0435\u0440\u044b \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0445 \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0439. \u0420\u0430\u0437\u0443\u043c\u0435\u0435\u0442\u0441\u044f, \u0441\u0442\u0430\u0442\u044c\u044f \u043d\u0435 \u043f\u0440\u0435\u0442\u0435\u043d\u0434\u0443\u0435\u0442 \u043d\u0430 \u0432\u0441\u0435\u043e\u0445\u0432\u0430\u0442\u043d\u043e\u0441\u0442\u044c \u0438 \u043a\u043b\u0430\u0441\u0441\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445 \u043c\u043e\u0436\u043d\u043e \u043f\u043e \u0440\u0430\u0437\u043d\u043e\u043c\u0443, \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u043f\u043e \u0442\u0438\u043f\u0430\u043c \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0438 \u0442.\u0434., \u0438 \u0432\u0441\u0435 \u0432\u0438\u0434\u044b \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445 \u0431\u0443\u0434\u0443\u0442 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u044b \u043e\u0447\u0435\u043d\u044c \u043a\u0440\u0430\u0442\u043a\u043e. \u041d\u043e \u043d\u0430\u0434\u0435\u044e\u0441\u044c, \u0441\u0442\u0430\u0442\u044c\u044f \u0434\u0430\u0441\u0442 \u0431\u0430\u0437\u043e\u0432\u043e\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043e \u0432\u0438\u0434\u0430\u0445 \u0421\u0423\u0411\u0414 \u0438 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0430\u0445 \u0438\u0445 \u0440\u0430\u0431\u043e\u0442\u044b."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://www.sqltutorial.org/",
+    "fld_dsc": "SQL Tutorial",
+    "fld_krz": "This SQL tutorial helps you get started with SQL quickly and effectively through many practical examples.\r\n\r\nIf you are a software developer, database administrator, data analyst, or data scientist who wants to use SQL to analyze data, this tutorial is a good start."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://www.postgresql.org/docs/",
+    "fld_dsc": "PostgreSQL docs",
+    "fld_krz": "Quick Links\r\n\r\n    Documentation\r\n    Manuals\r\n        Archive\r\n    Release Notes\r\n    Books\r\n    Tutorials & Other Resources\r\n    FAQ\r\n    Wiki\r\n\r\n"
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://dev.mysql.com/doc/",
+    "fld_dsc": "MySQL Documentation",
+    "fld_krz": "MySQL 8.4 Reference Manual\r\nIncluding MySQL NDB Cluster 8.4\r\n\r\nAbstract\r\n\r\nThis is the MySQL Reference Manual. It documents MySQL 8.4 through 8.4.3, as well as NDB Cluster 8.4 through 8.4.3, respectively. It may include documentation of features of MySQL versions that have not yet been released. For information about which versions have been released, see the MySQL 8.4 Release Notes. "
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://www.sqlite.org/docs.html",
+    "fld_dsc": "SQLite Documentation",
+    "fld_krz": "\u25ba Document Lists And Indexes\r\n\u25ba Overview Documents\r\n\u25ba Programming Interfaces\r\n\u25ba Extensions\r\n\u25ba Features\r\n\u25ba Tools\r\n\u25ba Advocacy\r\n\u25ba Technical and Design Documentation\r\n\u25ba Upgrading SQLite, Backwards Compatibility\r\n\u25ba Obsolete Documents"
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://docs.timescale.com/",
+    "fld_dsc": "TimescaleDB Documentation",
+    "fld_krz": "Timescale Cloud is a high-performance developer focused cloud that provides PostgreSQL services enhanced with our blazing fast vector search."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://docs.timescale.com/getting-started/latest/",
+    "fld_dsc": "Quick Start Guide for TimescaleDB",
+    "fld_krz": "Welcome to the Timescale documentation! We make PostgreSQL better for your demanding workloads. Read on to learn more about Timescale Cloud, and TimescaleDB."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://dbdb.io/db/questdb",
+    "fld_dsc": "QuestDB SQL Reference",
+    "fld_krz": "QuestDB is an open-source time-series relational database. It uses a column-oriented approach and supports heavy parallelized vectorized execution using SIMD instructions. QuestDB implements a SQL interface and augments it with extensions simplifying the semantics of time-series queries. It supports high-throughput, schema-agnostic ingestion using the Postgres wire protocol and the InfluxDB line protocol. QuestDB is written from scratch in Java and C++ with no external dependencies and zero garbage collection."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://questdb.io/docs/",
+    "fld_dsc": "QuestDB Documentation",
+    "fld_krz": "QuestDB is an Apache 2.0 open source columnar database that specializes in time series.\r\n\r\nIt offers category-leading ingestion throughput and fast SQL queries with operational simplicity.\r\n\r\nGiven its effiency, QuestDB reduces operational costs, all while overcoming ingestion bottlenecks.\r\n\r\nAs a result, QuestDB offers greatly simplified overall ingress infrastructure."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://docs.influxdata.com/",
+    "fld_dsc": "InfluxDB Documentation",
+    "fld_krz": "Get started with InfluxDB"
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://docs.influxdata.com/enterprise_influxdb/v1/query_language/spec/",
+    "fld_dsc": "InfluxQL Reference",
+    "fld_krz": "InfluxQL is a SQL-like query language for interacting with InfluxDB and providing features specific to storing and analyzing time series data."
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://www.mongodb.com/docs/manual/tutorial/getting-started/",
+    "fld_dsc": "MongoDB Quick Start ",
+    "fld_krz": "To get started and explore MongoDB, try the 5 minute interactive tutorial that connects you to a MongoDB Atlas cluster and walks you through inserting, querying, and deleting data in MongoDB."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://www.mongodb.com/docs/",
+    "fld_dsc": "MongoDB Documentation",
+    "fld_krz": "Welcome to the official MongoDB Documentation. Whether you're a developer, database administrator, or just starting your journey with MongoDB, our documentation provides you with the information and knowledge needed to build applications on MongoDB and the Atlas developer data platform."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://redis.io/docs/latest/",
+    "fld_dsc": "Redis Documentation",
+    "fld_krz": ""
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://redis.io/docs/latest/develop/get-started/",
+    "fld_dsc": "Redis Quick Start",
+    "fld_krz": "Redis can be used as a database, cache, streaming engine, message broker, and more. The following quick start guides will show you how to use Redis for the following specific purposes:\r\n\r\n    Data structure store\r\n    Document database\r\n    Vector database\r\n\r\nPlease select the guide that aligns best with your specific usage scenario."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://couchdb.apache.org/",
+    "fld_dsc": "CouchDB relax",
+    "fld_krz": "Apache CouchDB \u2122 lets you access your data where you need it. The Couch Replication Protocol is implemented in a variety of projects and products that span every imaginable computing environment from globally distributed server-clusters, over mobile phones to web browsers. "
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://guide.couchdb.org/draft/tour.html",
+    "fld_dsc": "Getting Started CouchDB",
+    "fld_krz": "In this chapter, we\u2019ll take a quick tour of CouchDB\u2019s features, familiarizing ourselves with Futon, the built-in administration interface. We\u2019ll create our first document and experiment with CouchDB views. Before we start, skip to Appendix D, Installing from Source and look for your operating system. You will need to follow those instructions and get CouchDB installed before you can progress. "
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://rethinkdb.com/docs",
+    "fld_dsc": "RethinkDB Documentation",
+    "fld_krz": "What is RethinkDB?\r\n\r\nRethinkDB makes building and scaling realtime apps dramatically easier. Get started by installing the server, and jump into our getting started guide to start building your first app in minutes. "
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://rethinkdb.com/docs/quickstart",
+    "fld_dsc": "Thirty-second quickstart with RethinkDB",
+    "fld_krz": "What is RethinkDB?\r\n\r\nRethinkDB makes building and scaling realtime apps dramatically easier. Get started by installing the server, and jump into our getting started guide to start building your first app in minutes. "
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://www.tutorialspoint.com/couchdb/couchdb_quick_guide.htm",
+    "fld_dsc": "CouchDB - Quick Guide",
+    "fld_krz": "Database management system provides mechanism for storage and retrieval of data. There are three main types of database management systems namely RDBMS (Relational Database management Systems), OLAP (Online Analytical Processing Systems) and NoSQL."
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://git-scm.com/docs",
+    "fld_dsc": "Git --distributed-is-the-new-centralized",
+    "fld_krz": "Quick reference guides: GitHub Cheat Sheet | Visual Git Cheat Sheet"
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://habr.com/ru/companies/otus/articles/794216/",
+    "fld_dsc": "\u041c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b \u0438 RabbitMQ \u0432 Docker",
+    "fld_krz": "\u041c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u0430\u044f \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u043f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442 \u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044e \u043c\u043e\u043d\u043e\u043b\u0438\u0442\u043d\u043e\u0433\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u043d\u0430 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u0435\u043c\u044b\u0445 \u0438 \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u0435\u043c\u044b\u0445 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u0432. \u0417\u0430 \u043f\u0440\u0435\u0434\u0435\u043b\u0430\u043c\u0438 \u044d\u0442\u043e\u0433\u043e \u0431\u0430\u0437\u043e\u0432\u043e\u0433\u043e \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f, \u0442\u043e, \u0447\u0442\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441, \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0443\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u043c. "
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://github.com/spyren/Mecrisp-Cube",
+    "fld_dsc": "Mecrisp-Cube (master branch) -> [forth, C, stm32]",
+    "fld_krz": "Mecrisp-Stellaris Forth for the STM32 Cube ecosystem.\r\n\r\nForth is an interactive and extensible language, with built-in lexical analysis (tokenizer, parser) and interpreter/compiler, needs less than 20 KiB Flash and 4 KiB RAM, unbelievable for a self-contained (self-hosted) system.\r\n\r\nForth is perfect for embedded systems where some sort of user interactivity like CLI and extensibility (at runtime) are needed.\r\n\r\nC & Forth in the 21st Century. C and Forth are both about 50 years old. The combination of the strength of this two worlds results in a powerful system that outperforms other much newer systems like Python. Good design withstands the test of time."
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://vos.openlinksw.com/owiki/wiki/VOS/VirtSpongerCartridgeProgrammersGuide",
+    "fld_dsc": "Virtuoso Programmer's Guide - RDF Middleware",
+    "fld_krz": "OpenLink Virtuoso's Sponger is an RDFizer providing middleware for creating RDF linked data from non-RDF data sources. The Sponger forms part of the extensible RDF framework built into Virtuoso Universal Server. A key component of the Sponger's pluggable architecture is its support for Sponger Cartridges, which themselves are comprised of an Entity Extractor and an Ontology Mapper. Virtuoso bundles numerous pre-written cartridges for RDF data extraction from a wide range of data sources. However, developers are free to develop their own custom cartridges. This programmer's guide describes how."
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://packages.debian.org/ru/sid/database/virtuoso-opensource",
+    "fld_dsc": "\u041f\u0430\u043a\u0435\u0442: virtuoso-opensource (7.2.12+dfsg-0.2) ",
+    "fld_krz": "OpenLink Virtuoso \u2013 \u044d\u0442\u043e \u0432\u044b\u0441\u043e\u043a\u043e\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0431\u044a\u0435\u043a\u0442\u043d\u043e-\u0440\u0435\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u0430\u044f SQL \u0431\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445. \u041e\u043d\u0430 \u0432\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u0442\u0440\u0430\u043d\u0437\u0430\u043a\u0446\u0438\u0438, \u0443\u043c\u043d\u044b\u0439 SQL-\u043a\u043e\u043c\u043f\u0438\u043b\u044f\u0442\u043e\u0440, \"\u0433\u043e\u0440\u044f\u0447\u0435\u0435\" \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0435 \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443 SQL:1999, \u043c\u043e\u0449\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0434\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440, \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439 Java, .NET \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 \u0441\u0435\u0440\u0432\u0435\u0440\u0430. \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0432\u0441\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043a \u0434\u0430\u043d\u043d\u044b\u043c, \u0432\u043a\u043b\u044e\u0447\u0430\u044f ODBC, JDBC, ADO.NET \u0438 OLE/DB. "
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://flask-russian-docs.readthedocs.io/ru/0.10.1/tutorial/index.html",
+    "fld_dsc": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f Flask (\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u043f\u0435\u0440\u0435\u0432\u043e\u0434) 0.10.1 \u00bb",
+    "fld_krz": "\u0425\u043e\u0442\u0438\u0442\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043d\u0430 Python \u043f\u043e\u0434 Flask? \u0417\u0434\u0435\u0441\u044c \u0432\u0430\u043c \u0434\u0430\u0451\u0442\u0441\u044f \u0442\u0430\u043a\u043e\u0439 \u0448\u0430\u043d\u0441 - \u0438\u0437\u0443\u0447\u0438\u0442\u044c \u043a\u0430\u043a \u044d\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442\u0441\u044f \u043d\u0430 \u043f\u0440\u0438\u043c\u0435\u0440\u0435. \u0412 \u044d\u0442\u043e\u043c \u0443\u0447\u0435\u0431\u043d\u0438\u043a\u0435 \u043c\u044b \u0441\u043e\u0437\u0434\u0430\u0434\u0438\u043c \u043f\u0440\u043e\u0441\u0442\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043c\u0438\u043a\u0440\u043e\u0431\u043b\u043e\u0433\u0430. \u041e\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0441\u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0442\u044c \u0447\u0438\u0441\u0442\u043e \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438, \u0431\u0435\u0437 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0438 \u0438\u043b\u0438 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f, \u043e\u0434\u043d\u0430\u043a\u043e \u0432 \u043d\u0435\u0439 \u0431\u0443\u0434\u0435\u0442 \u0432\u0441\u0451, \u0447\u0442\u043e \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043b\u044f \u0442\u043e\u0433\u043e, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0447\u0430\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u0443. \u041c\u044b \u0431\u0443\u0434\u0435\u043c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c Flask \u0438 SQLite \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0438\u0434\u0451\u0442 \u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435 \u0441 Python, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0432\u0430\u043c \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043d\u0430\u0434\u043e\u0431\u0438\u0442\u0441\u044f."
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/blog/",
+    "fld_dsc": "Blog Blueprint (Flask)",
+    "fld_krz": "Blog Blueprint\r\n\r\nYou\u2019ll use the same techniques you learned about when writing the authentication blueprint to write the blog blueprint. The blog should list all posts, allow logged in users to create posts, and allow the author of a post to edit or delete it."
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://runebook.dev/ru/#docs",
+    "fld_dsc": "Runebook.dev",
+    "fld_krz": "What is Runebook?\r\n\r\nRunebook is Open source community translations of documentation for software developers. including programming languages, frameworks, libraries, APIs and more."
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://transform.tools/json-to-mysql",
+    "fld_dsc": "Transform tools (\u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440 \u0434\u0430\u043d\u043d\u044b\u0445)",
+    "fld_krz": "\u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440:  JSON <--> MySQL schema"
+  },
+  {
+    "fld_cat": "other",
+    "fld_url": "https://robotdreams.cc/blog/294-nalashtovuyemo-openvpn-server-na-linux-za-20-krokiv",
+    "fld_dsc": "\u041d\u0430\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u043c OpenVPN \u0441\u0435\u0440\u0432\u0435\u0440 \u043d\u0430 Linux \u0432 20 \u0448\u0430\u0433\u0430\u0445",
+    "fld_krz": "VPN \u0447\u0430\u0441\u0442\u043e \u0432\u043a\u043b\u044e\u0447\u0435\u043d \u0432 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u0430 \u0438\u043b\u0438 \u0440\u043e\u0443\u0442\u0435\u0440\u0430, \u043c\u043e\u0436\u0435\u0442 \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043f\u043b\u0430\u0433\u0438\u043d\u043e\u0432 \u0438\u043b\u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u043c \u043f\u043e \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0435 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0445 \u0441\u0435\u0440\u0432\u0438\u0441\u0430\u0445. \u041e\u0434\u043d\u0430\u043a\u043e \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 VPN \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u0435\u0435 \u0438 \u0431\u044b\u0441\u0442\u0440\u0435\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u043f\u043e \u0442\u0440\u0430\u0444\u0438\u043a\u0443, \u043a\u0430\u043a \u0443 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0445 \u0430\u043d\u0430\u043b\u043e\u0433\u043e\u0432."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://tproger.ru/translations/influxdb-guide",
+    "fld_dsc": "\u0417\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 InfluxDB \u0438 \u0431\u0430\u0437\u0430\u043c\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u0440\u044f\u0434\u043e\u0432",
+    "fld_krz": "InfluxDB, \u0431\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u0440\u044f\u0434\u043e\u0432 (TSDB), \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u0430\u044f InfluxData, \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0435\u0441\u044f\u0446\u0435\u0432 \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u0443\u0435\u0442 \u0432\u0441\u0451 \u0431\u043e\u043b\u044c\u0448\u0443\u044e \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u043e\u0441\u0442\u044c. \u041e\u043d\u0430 \u0441\u0442\u0430\u043b\u0430 \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u043e\u0432 \u0434\u043b\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u043e\u0432 \u0438 \u0438\u043d\u0436\u0435\u043d\u0435\u0440\u043e\u0432, \u0436\u0435\u043b\u0430\u044e\u0449\u0438\u0445 \u0432\u043d\u0435\u0434\u0440\u0438\u0442\u044c \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0432 \u0441\u0432\u043e\u044e \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u0443\u044e \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443."
+  },
+  {
+    "fld_cat": "ext_links",
+    "fld_url": "https://tproger.ru/tag/python",
+    "fld_dsc": "Tproger",
+    "fld_krz": "\u0412\u0441\u0435 \u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438"
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://influxdb-python.readthedocs.io/en/latest/examples.html",
+    "fld_dsc": "InfluxDB Python Examples",
+    "fld_krz": "Tutorials"
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://www.dmosk.ru/miniinstruktions.php?mini=influxdb-install",
+    "fld_dsc": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0438 \u0431\u0430\u0437\u043e\u0432\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 InfluxDB \u043d\u0430 Ubuntu",
+    "fld_krz": "\u0412 \u0434\u0430\u043d\u043d\u043e\u0439 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043c\u044b \u043a\u0440\u0430\u0442\u043a\u043e \u0440\u0430\u0437\u0431\u0435\u0440\u0435\u043c \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0443 InfluxDB \u043d\u0430 Linux Ubuntu. \u041f\u043e \u043c\u0435\u0440\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438, \u0434\u0430\u043d\u043d\u044b\u0435 \u0431\u0443\u0434\u0443\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u044f\u0442\u044c\u0441\u044f."
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://github.com/PacktPublishing/A-Developer-s-Essential-Guide-to-Docker-Compose",
+    "fld_dsc": "A-Developer-s-Essential-Guide-to-Docker-Compose",
+    "fld_krz": "Docker composer with Go"
+  },
+  {
+    "fld_cat": "tutorials",
+    "fld_url": "https://gin-gonic.com/docs/quickstart/",
+    "fld_dsc": "Gin Web Framework",
+    "fld_krz": "\u0424\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Go"
   }
 ]

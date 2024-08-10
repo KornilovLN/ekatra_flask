@@ -3,7 +3,7 @@
 # Nginx, Git и Midnight Commander.
 # Файлы приложения Flask в директории app/
 #---------------------------------------------------------------------
-# docker build -t my-flask-img .        #--- сборка my-flask-img
+# docker build -t my-flask-img .            #--- сборка my-flask-img
 # docker run -p 8086:80 my-flask-img        #--- запустить контейнер#
 # docker run --rm --name my-flask-cont -p 8086:80 -v /home/leon/work/docker/ekatra_flask/:/app my-flask-img
 #---------------------------------------------------------------------
